@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a hidden directory called .git. This hidden repository contains the metadata required to track the history of the entire repository.
+We need to run the git init command to be able to make a git repository. This way, the entire directory is handled as a repository for the git software.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory is the place where changes are done. The staging area is where all the changes needed for a commit comes together so they can be bound
+as a logic unit of changes. The repository is where logical units of changes are saved as separate commits. Since the working directory is a place where a 
+change do not need to wait for others changes to be ready for a commit, we need the staging area to put this change while having the working area ready for
+making more changes. Let's remember that doing changes is a never stop task.
+ 
