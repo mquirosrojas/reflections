@@ -16,3 +16,8 @@ We can put all changes that made up a logical change into the staging area. Beca
 completed first can wait for the others. This way, we can put together all logical changes completed in different times, and then commit them as a logical
 unit of changes.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+For example, branches are helpful when we want to have two or more versions of our project. It is also helpful when we want to introduce a new feature, but
+we are not sure that it will stay on the final project.
+
