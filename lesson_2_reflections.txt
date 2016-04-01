@@ -10,3 +10,9 @@ as a logic unit of changes. The repository is where logical units of changes are
 change do not need to wait for others changes to be ready for a commit, we need the staging area to put this change while having the working area ready for
 making more changes. Let's remember that doing changes is a never stop task.
  
+How can you use the staging area to make sure you have one commit per logical change?
+
+We can put all changes that made up a logical change into the staging area. Because all these changes are not completed at the same time, the ones that were
+completed first can wait for the others. This way, we can put together all logical changes completed in different times, and then commit them as a logical
+unit of changes.
+
