@@ -28,4 +28,4 @@ They show us the different branches and its commits. We can see graphically the 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is a commit which takes into account commits from both branches. We represent it in a diagram to see which commits belongs to the branches, and the
-final commit which merges the branches.
+final commit which merges the branches .
