@@ -24,3 +24,8 @@ we are not sure that it will stay on the final project.
 How do the diagrams help you visualize the branch structure?
 
 They show us the different branches and its commits. We can see graphically the sequence of commits for each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a commit which takes into account commits from both branches. We represent it in a diagram to see which commits belongs to the branches, and the
+final commit which merges the branches.
