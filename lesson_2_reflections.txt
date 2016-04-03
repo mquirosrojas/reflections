@@ -28,4 +28,10 @@ They show us the different branches and its commits. We can see graphically the 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is a commit which takes into account commits from both branches. We represent it in a diagram to see which commits belongs to the branches, and the
-final commit which merges the branches .
+final commit which merges the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of Git's automatic merging is the time saving doing the merging. Its cons are related to keeping code that you might not want. When part of data
+in a file is in one branch and not in the other, Git does not seem to see a conflict, and Git would include it in the merge file. However, you might not 
+want to keep it.
